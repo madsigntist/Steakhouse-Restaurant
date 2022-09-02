@@ -62,7 +62,7 @@ body {
 /* Parallax */
 
 #plx {
-    background-image: url(../images/parallax-steak-house.png);
+    background-image: url(images/parallax-steak-house.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -89,7 +89,7 @@ body {
 }
 
 #about {
-    background-image: url(../images/parallax-steak-house2.png);
+    background-image: url(images/parallax-steak-house2.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
