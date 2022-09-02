@@ -1,0 +1,129 @@
+nav {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+nav .navbar-nav li a {
+    color: #F3A712 !important;
+}
+
+nav .navbar-nav li a:hover {
+    color: #82A6B1 !important;
+}
+
+a:link {
+    color: #F3A712;
+}
+
+a:visited {
+    color: #F3A712;
+}
+
+a:hover {
+    color: #82A6B1 !important;
+}
+
+a:active {
+    color: #F3A712;
+}
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    background-color: #82A6B1;
+    font-family: 'Amiko', sans-serif;
+}
+
+.btn-dark,
+.btn-dark:active,
+.btn-dark:visited {
+    background-color: #363F48 !important;
+    box-shadow: 2px 2px 8px 1px #0000003b;
+}
+
+.btn-dark:hover {
+    background-color: #476771 !important;
+    box-shadow: 2px 2px 8px 1px #0000003b;
+}
+
+/* Parallax */
+
+#plx {
+    background-image: url(../images/parallax-steak-house.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.plxtitle {
+    padding: 150px 20px;
+    color: #F3A712;
+    text-shadow: 2px 2px 4px #0000006c;
+}
+
+.card {
+    box-shadow: 2px 2px 12px #0000006c;
+    color: #000;
+    text-shadow: none;
+}
+
+#menu {
+    background-color: #363f48d2;
+    color: #F3A712;
+    text-shadow: 2px 2px 4px #0000006c;
+    box-shadow: 2px 2px 12px #0000006c;
+}
+
+#about {
+    background-image: url(../images/parallax-steak-house2.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutText {
+    color: #F3A712;
+    text-shadow: 0px 0px 5px #000000, 0px 0px 5px #000000,
+        0px 0px 20px #000000, 0 0 20px #000000, 0 0 20px #000000;
+}
+
+.imgshadow {
+    box-shadow: 0 0 10px #000000;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
+    height: 0;
+    box-shadow: 0 0 10px #000000;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+@media (min-width: 992px) {
+    .rounded-lg-3 {
+        border-radius: .3rem;
+    }
+}
