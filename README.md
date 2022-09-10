@@ -1,3 +1,3 @@
-# madsigntist.github.io
+# Steakhouse Restaurant Demo
 
-used for hosting various sites and apps
+Mock restaurant website made with BootStrap5
